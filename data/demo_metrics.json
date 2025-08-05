@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-08-06T02:12:40.643974",
+  "overall_metrics": {
+    "total_users": 10988,
+    "active_users_today": 639,
+    "total_donations": 16479,
+    "total_amount_raised": 187110.9,
+    "average_donation": 21.1,
+    "conversion_rate": 0.236
+  },
+  "agent_metrics": {
+    "DonationLikelyScoreAgent": {
+      "decisions": 1120,
+      "conversions": 226,
+      "conversion_rate": 0.281,
+      "avg_response_time": 111
+    },
+    "MLDonationLikelyScoreAgent": {
+      "decisions": 1064,
+      "conversions": 313,
+      "conversion_rate": 0.322,
+      "avg_response_time": 123
+    },
+    "LocalCauseRecommenderAgent": {
+      "recommendations": 1081,
+      "accepted": 422,
+      "acceptance_rate": 0.466,
+      "avg_relevance_score": 0.782
+    }
+  },
+  "cause_metrics": {
+    "Education": {
+      "donations": 131,
+      "amount_raised": 5631.97,
+      "avg_donation": 17.17,
+      "success_rate": 0.208
+    },
+    "Environment": {
+      "donations": 441,
+      "amount_raised": 20293.07,
+      "avg_donation": 24.59,
+      "success_rate": 0.297
+    },
+    "Health": {
+      "donations": 422,
+      "amount_raised": 12565.93,
+      "avg_donation": 13.77,
+      "success_rate": 0.349
+    },
+    "Disaster Relief": {
+      "donations": 471,
+      "amount_raised": 20027.83,
+      "avg_donation": 24.79,
+      "success_rate": 0.386
+    },
+    "Poverty": {
+      "donations": 429,
+      "amount_raised": 23203.87,
+      "avg_donation": 27.63,
+      "success_rate": 0.298
+    },
+    "Animal Welfare": {
+      "donations": 479,
+      "amount_raised": 8482.41,
+      "avg_donation": 26.49,
+      "success_rate": 0.222
+    },
+    "Arts & Culture": {
+      "donations": 307,
+      "amount_raised": 12555.1,
+      "avg_donation": 17.81,
+      "success_rate": 0.302
+    },
+    "Technology": {
+      "donations": 114,
+      "amount_raised": 7468.87,
+      "avg_donation": 24.91,
+      "success_rate": 0.268
+    }
+  }
+}
